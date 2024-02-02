@@ -19,3 +19,7 @@ input {
     animation: logo-spin infinite 20s linear;
   }
 }
+
+table, .tdNode{
+  border: "1px red solid";
+}
