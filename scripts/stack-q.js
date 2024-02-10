@@ -23,6 +23,7 @@ class PStackImpl extends PStack {
   #persons = []
   constructor() {
     super();
+    this.persons = [];
   }
   push(p) {
     return this.#persons.push(p)

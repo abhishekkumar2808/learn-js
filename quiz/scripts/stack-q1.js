@@ -21,6 +21,9 @@ class PStackImpl extends PStack {
   }
 
   pop() {
+    if (this._persons.length === 0) 
+      return null; // Return null or handle empty stack scenario
+    
     return this._persons.pop().age
   }
 }
